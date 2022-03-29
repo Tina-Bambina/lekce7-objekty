@@ -37,6 +37,7 @@ for (ind=0; ind<poleZvirat.length; ind++) //NAS INDEX, PAK SE TO PROTOCI!!!
         let fotoZvirete = document.createElement('img');
         fotoZvirete.className = 'foto';
         fotoZvirete.src = poleZvirat[ind].foto;
+        fotoZvirete.alt = poleZvirat[ind].jemno; //alternativni text! kdyby se to nenacetlo...! tak pro uzivatele
 
             //2.2. Dale vytvor div element s tridou 'jmeno'. Jako text elementu zobraz hodnotu vlastnosti jmeno objektu krava.
 
@@ -61,3 +62,11 @@ for (ind=0; ind<poleZvirat.length; ind++) //NAS INDEX, PAK SE TO PROTOCI!!!
         // Co kdybychom meli program, kde tech zvirat je vic - objekt krava, objekt ovce, objekt prase...
         // Musela bych pro kazdy objekt mit samostatnou promennou...jde to lépe?
     }
+
+
+
+
+
+
+//a toto by odstranilo elementy!!!:    
+//document.querySelector('.farma').removeChild(document.querySelector('.zvire'));
