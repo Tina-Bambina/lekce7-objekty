@@ -15,8 +15,6 @@ auto.majitel = {};
 auto.majitel.jmeno = 'Jana';
 auto.majitel.prijmeni = 'Czechita';
 
-
-
 // Přepiš značku na Škoda
 auto['znacka'] = 'SKODA';
 
@@ -24,3 +22,5 @@ auto['znacka'] = 'SKODA';
 let majitelka = auto.majitel.jmeno + ' ' + auto.majitel.prijmeni;
 let znacka = auto.znacka;
 let spz = auto.spz;
+
+//dobrovolny domaci ukol = propojit na UI!!!
